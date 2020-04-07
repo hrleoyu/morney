@@ -1,20 +1,14 @@
 <template>
-    <div>
-        Statistics
-        <hr>
-     <Nav/>
-    </div>
+      <Layout>
+        <p>statistics</p>
+    </Layout>
 </template>
 
 
 <script lang="ts">
-    import Vue from 'vue'
-    import Nav from '@/components/Nav.vue'
-
-    import Statistics from '@/views/Statistics.vue';
-    export default Vue.extend({
-        components: {Nav}
-    })
+    export default {
+        name: 'Statistics',
+    };
 </script>
 
 

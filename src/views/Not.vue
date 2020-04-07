@@ -8,9 +8,11 @@
 </template>
 
 <script lang="ts">
-    export default {
-        
-    }
+
+        export default {
+            name: 'Not'
+        };
+
 </script>
 
 <style lang="scss" scoped>

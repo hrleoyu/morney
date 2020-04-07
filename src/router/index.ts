@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
 import Money from '../views/Money.vue'
-import Labels from '../views/Labels.vue'
+import Labels from '@/views/Labels.vue'
 import Statistics from '@/views/Statistics.vue'
 import Not from '@/views/Not.vue'
 
